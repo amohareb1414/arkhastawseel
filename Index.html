@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أرخص توصيل - قارن أسعار الوجبات في السعودية</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background: #f0f8ff; margin: 0; padding: 0; color: #333; }
+        header { background: #ff5722; color: white; padding: 20px; text-align: center; }
+        .logo { height: 100px; }
+        h1 { font-size: 2.5em; margin: 10px 0; }
+        .subtitle { font-size: 1.2em; }
+        .search-bar { background: white; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        input, select, button { padding: 15px; margin: 10px; font-size: 1.2em; border-radius: 10px; }
+        input { width: 50%; border: 1px solid #ff5722; }
+        select { width: 30%; border: 1px solid #2196f3; }
+        button { background: #2196f3; color: white; border: none; cursor: pointer; width: 80%; }
+        .results { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+        .card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; }
+        .card h2 { color: #ff5722; }
+        .best { border: 3px solid #2196f3; background: #e3f2fd; }
+        footer { background: #333; color: white; padding: 20px; text-align: center; margin-top: 50px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/100x100/ff5722/ffffff?text=لوجو" alt="شعار أرخص توصيل" class="logo">
+        <h1>أرخص توصيل</h1>
+        <p class="subtitle">أقدم لك أقل سعر للوجبات عبر كل التطبيقات في السعودية!</p>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" placeholder="أدخل اسم الوجبة أو المطعم (مثل: وجبة الطازج العائلية)">
+        <select>
+            <option>كل السعودية</option>
+            <option>الرياض</option>
+            <option>جدة</option>
+            <option>الدمام</option>
+            <option>مكة</option>
+            <option>المدينة</option>
+            <option>الطائف</option>
+            <option>أبها</option>
+        </select>
+        <button>ابحث عن أرخص سعر</button>
+    </div>
+
+    <div class="results">
+        <div class="card best">
+            <h2>تويو</h2>
+            <p>السعر الإجمالي: 119 ريال</p>
+            <p style="color: green;">أرخص خيار - توفر 30 ريال!</p>
+            <button>اطلب الآن</button>
+        </div>
+        <div class="card">
+            <h2>جاهز</h2>
+            <p>السعر الإجمالي: 128 ريال</p>
+            <button>اطلب الآن</button>
+        </div>
+        <div class="card">
+            <h2>هنقرستيشن</h2>
+            <p>السعر الإجمالي: 149 ريال</p>
+            <button>اطلب الآن</button>
+        </div>
+        <div class="card">
+            <h2>مرسول</h2>
+            <p>السعر الإجمالي: 135 ريال</p>
+            <button>اطلب الآن</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 أرخص توصيل - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
